@@ -15,7 +15,7 @@
 
 .container-header, 
 .container-main{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -44,8 +44,9 @@ h1{
     height: 6rem;
     background-color: black;
     color: white;
-    width: 18rem;
-    margin: 2rem;
+    width: calc((100% / 3) - 1.39rem);
+    margin-right: 1.3rem;
+    margin-bottom: 1.3rem;
 }
 
 h2{
