@@ -6,20 +6,28 @@
 }
 
 body{
-    font-family: 'Bebas Neue', sans-serif;
     font-family: 'Fredoka', sans-serif;
-    font-family: 'Merriweather', serif;
-    font-family: 'Roboto', sans-serif;
 
 }
 
-.container{
+/* .container{
     width: 70%;
     margin: 0 auto;
     
+} */
+
+.container-header, 
+.container-main{
+    width: 70%;
+    margin: 0 auto;
 }
 
-.title-text{
+header > h1{
     color: rgb(212, 23, 149);
     text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.container-section-text{
+    margin-bottom: 2.5rem;
 }
