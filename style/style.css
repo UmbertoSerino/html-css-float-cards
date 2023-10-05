@@ -2,13 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
-body{
-    font-family: 'Fredoka', sans-serif;
 
-}
 /* Clear FIX */
 .clearfix::after {
     content: "";
@@ -19,7 +15,7 @@ body{
 
 .container-header, 
 .container-main{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -28,12 +24,19 @@ header > h1 , p{
     margin-bottom: 2.5rem;
 }
 
+h1{
+    color: rgb(212, 31, 61);
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 2rem;
+}
+
 /* Parte main */
 
 
 .float-left{
     height: 6rem;
     float: left;
+    padding-right: 1rem;
 }
 
 .container-info{
@@ -45,3 +48,16 @@ header > h1 , p{
     margin: 2rem;
 }
 
+h2{
+    font-family: 'Fredoka', sans-serif;
+    margin-top: .3rem;
+}
+
+span{
+    margin-top: .5rem;
+    display: block;
+}
+
+section span:last-child{
+    color: rgb(36, 157, 212);
+}
