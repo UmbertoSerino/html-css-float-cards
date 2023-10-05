@@ -37,9 +37,11 @@ header > h1 , p{
 }
 
 .container-info{
+    float: left;
     height: 6rem;
     background-color: black;
     color: white;
-    width: 33%;
+    width: 18rem;
+    margin: 2rem;
 }
 
