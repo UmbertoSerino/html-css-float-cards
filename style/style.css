@@ -44,7 +44,7 @@ h1{
     height: 6rem;
     background-color: black;
     color: white;
-    width: calc((100% / 3) - 1.39rem);
+    width: calc((100% / 3) - 1.3rem);
     margin-right: 1.3rem;
     margin-bottom: 1.3rem;
 }
